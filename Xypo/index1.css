@@ -1,0 +1,568 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.main {
+ width: 100vw;
+ height: 100vh;
+ padding: 0%;
+ margin: 0%;
+}
+.center{
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+#menuImage {
+  height: 6.5vh;
+  width: 3.2vw;
+  position: fixed;
+  left: 1285px;
+  bottom: 570px;
+  cursor: pointer;
+}
+.div1 {
+  margin-top: 70px;
+  margin-left: 50px;
+  position: relative;
+}
+#divLogo {
+  margin-left: 55px;
+}
+#topClass {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-left: 40px;
+}
+#logo {
+  height: 70px;
+  width: 90px;
+}
+h4 {
+  text-align: left;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+h1 {
+  text-align: left;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+h5 {
+  text-align: left;
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+.line1 {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  top: 30px;
+}
+.line2 {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  top: 20px;
+}
+.line3 {
+  padding: 1px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  width: 100px;
+  top: 10px;
+}
+.line4 {
+  padding: 1px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  width: 50px;
+  top: 0px;
+}
+#read {
+  border: 2px solid rgb(242, 89, 89);
+  color: #790252;
+  border-radius: 3px;
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+#read:hover {
+  color: rgba(240, 128, 128, 0.9);
+}
+.bars {
+  margin-top: 10px;
+}
+#about {
+  padding-top: 100px;
+  padding-right: 50px;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+}
+#aboutImage {
+  height: 75vh;
+  width: 45vw;
+}
+.AboutBox {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+}
+.AboutBox1 {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+}
+.AboutBox2 {
+  padding: 1px;
+  width: 70px;
+  display: inline-block;
+  background-color: lightcoral;
+}
+.AboutBox3 {
+  padding: 1px;
+  position: relative;
+  bottom: 10px;
+  width: 50px;
+  display: inline-block;
+  background-color: lightcoral;
+}
+.AboutRight {
+  text-align: right;
+  width: 35vw;
+  height: fit-content;
+  padding: 15px;
+  position: relative;
+  left: 150px;
+}
+#Aboutpara1 {
+  color: rgb(159, 154, 154);
+  font-size: 18px;
+}
+#Aboutpara2 {
+  color: black;
+  font-size: 18px;
+}
+#tar {
+  color: rgb(159, 154, 154);
+}
+.feature {
+  display: flex;
+  margin-top: 80px;
+}
+.feature1 {
+  text-align: center;
+  margin-left: 70px;
+  position: relative;
+  left: 170px;
+}
+.feature2 {
+  text-align: center;
+  margin-left: 70px;
+  position: relative;
+  left: 170px;
+}
+.feature3 {
+  text-align: center;
+  margin-left: 70px;
+  position: relative;
+  left: 170px;
+}
+img {
+  height: 20vh;
+}
+.button {
+  display: flex;
+  padding-top: 80px;
+  margin: 0px;
+}
+#brick {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  left: 555px;
+  top: 6px;
+}
+#lines1 {
+  padding: 1px;
+  width: 50px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  left: 520px;
+}
+#lines2 {
+  padding: 1px;
+  width: 70px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  bottom: 9px;
+  text-align: left;
+  position: relative;
+  left: 500px;
+}
+#buttonForClick {
+  border: 2px solid lightcoral;
+  color: #790252;
+  border-radius: 3px;
+  font-weight: 800;
+  width: fit-content;
+  padding: 15px;
+  position: relative;
+  left: 550px;
+  cursor: pointer;
+}
+#buttonForClick:hover {
+  color: rgba(240, 128, 128, 0.9);
+}
+#click {
+  position: relative;
+  bottom: 50px;
+}
+#brickCourse {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+}
+#buttonCourse {
+  border: 2px solid lightcoral;
+  color: #790252;
+  padding: 12px;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 800;
+}
+#buttonCourse:hover {
+  color: rgba(240, 128, 128, 0.9);
+}
+#course {
+  padding-left: 80px;
+  padding-top: 60px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#coursebrick {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  top: 48px;
+  right: 131px;
+}
+#courselines1 {
+  padding: 1px;
+  width: 60px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  top: 45px;
+}
+#courselines2 {
+  padding: 1px;
+  width: 90px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  top: 35px;
+}
+#courseImg {
+  height: 350px;
+  position: relative;
+  right: 120px;
+  bottom: 10px;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 60px;
+}
+#offerImg {
+  height: 450px;
+}
+#offerbrick {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  right: -292px;
+  top: 5px;
+}
+#offerPara {
+  color: rgb(159, 154, 154);
+  text-align: right;
+  position: relative;
+  right: 90px;
+}
+#offerH1 {
+  font-size: 25px;
+  font-weight: 500px;
+  text-align: right;
+  position: relative;
+  right: 90px;
+}
+#buttonOffer {
+  border: 2px solid lightcoral;
+  padding: 12px;
+  color: #790252;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  position: relative;
+  right: -155px;
+  border-radius: 3px;
+  font-weight: 800;
+}
+#buttonOffer:hover {
+  color: rgba(240, 128, 128, 0.9);
+}
+#offerbrick2 {
+  padding: 8px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  right: -299px;
+  top: 35px;
+}
+#offerline1 {
+  padding: 1px;
+  width: 90px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  right: -225px;
+  top: 35px;
+}
+#offerline2 {
+  padding: 1px;
+  width: 50px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  right: -266px;
+  top: 25px;
+}
+.loginPage {
+  padding-top: 120px;
+  padding-left: 30px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.PageLeftSide {
+  display: grid;
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+}
+.PageRightSide {
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+}
+#loginImg {
+  height: 400px;
+  position: relative;
+  right: 50px;
+}
+.LoginName {
+  height: 30px;
+  padding: 5px;
+  border: 2px solid lightcoral;
+  position: relative;
+  top: 20px;
+  border-radius: 3px;
+}
+.LoginName:hover {
+  background-color: rgb(244, 214, 232);
+}
+.LoginPass {
+  height: 30px;
+  padding: 5px;
+  border: 2px solid lightcoral;
+  position: relative;
+  border-radius: 3px;
+}
+.LoginPass:hover {
+  background-color: rgb(244, 214, 232);
+}
+.LoginEmail {
+  height: 30px;
+  padding: 5px;
+  border: 2px solid lightcoral;
+  position: relative;
+  top: 10px;
+  cursor: text;
+  border-radius: 3px;
+}
+.LoginEmail:hover {
+  background-color: rgb(244, 214, 232);
+}
+#loginbutton1 {
+  height: 30px;
+  padding: 7px;
+  color: #790252;
+  font-weight: 800;
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid lightcoral;
+  position: relative;
+  bottom: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+}
+#loginbutton1:hover {
+  color: rgba(240, 128, 128, 0.9);
+  background-color: rgb(244, 214, 232);
+}
+#loginbutton2 {
+  height: 30px;
+  padding: 7px;
+  color: #790252;
+  font-weight: 800;
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid lightcoral;
+  position: relative;
+  bottom: 46px;
+  left: 79.2px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+}
+#loginbutton2:hover {
+  color: rgba(240, 128, 128, 0.9);
+  background-color: rgb(244, 214, 232);
+}
+#loginbrick {
+  padding: 8px;
+  display: inline-block;
+  width: fit-content;
+  background-color: lightcoral;
+  position: relative;
+  bottom: 25px;
+}
+#loginline1 {
+  padding: 1px;
+  width: 90px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  bottom: 35px;
+}
+#loginline2 {
+  padding: 1px;
+  width: 50px;
+  display: inline-block;
+  background-color: lightcoral;
+  position: relative;
+  bottom: 45px;
+}
+#LogH2 {
+  position: relative;
+  top: 35px;
+}
+.footer {
+  height: 18vh;
+  padding: 40px;
+  padding-top: 40px;
+  display: flex;
+}
+.footerLeft {
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+  padding-left: 120px;
+  position: relative;
+  bottom: 15px;
+  font-size: small;
+  font-weight: 500;
+}
+h3 {
+  color: rgb(171, 5, 5);
+  }
+  #footerRight{
+  display: flex;
+
+}
+#footerRightPara{
+  position: relative;
+  left: 150px;
+  font-size:smaller;
+  font-family:'Courier New', Courier, monospace;
+}
+#innerRightImg{
+  height: 65px;
+  position: relative;
+  left: 300px;
+  bottom: 30px;
+}
+.innerLang{
+  border: 2px solid lightcoral;
+  padding: 12px;
+  height: fit-content;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 3px;
+  position: relative;
+  left: 210px;
+  top: 10px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.innerLang:hover{
+  color: rgba(240, 128, 128, 0.9);
+  background-color: rgb(244, 214, 232);
+}
+p{
+  font-weight: 550;
+}
+#menulist{
+
+  width: 80px;
+  height:280px;
+  height: 100px;
+  background-color: lightcoral ;
+  position: fixed;
+  bottom: 525px;
+  right:90px;
+  cursor: pointer;
+  border-radius: 3px;
+  column-gap: 5px ;
+}
+li{
+  list-style: none;
+  font-weight: 800;
+  align-items:center;
+  cursor: pointer;
+  column-gap: 5px ;
+  padding: 3px;
+
+}
+li a{
+  color:darkmagenta;
+}
+
+  
+@media screen and (max-width:680px) {
+
+  
+}
